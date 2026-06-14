@@ -22,6 +22,7 @@ app.get("/", (req, res) => {
 });
 
 const PORT = process.env.PORT || 5000;
+console.log("MONGO_URI =", process.env.MONGO_URI);
 
 // Start server only after MongoDB connects
 mongoose
